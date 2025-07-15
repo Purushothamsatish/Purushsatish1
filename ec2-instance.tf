@@ -5,7 +5,7 @@ resource "aws_instance" "satish2_ec2" {
   security_groups = [aws_security_group.ec2_sg.name]
 
   tags = {
-    Name = "MyTerraformEC2"
+    Name = "MyTerraformEC2_new"
   }
 }
 
